@@ -1,0 +1,21 @@
+startDatabase:
+    name: apiary
+    connStr: dummy
+
+databases: []
+
+startTable: users
+startColumn:
+    name: cvid
+    colType: Txt
+
+startValues: []
+possibleIdColumns:
+    - cvid
+    - userid
+    - user
+    - cv_id
+    - user_id
+    - client_id
+    - consultant_id
+    - manager_id
