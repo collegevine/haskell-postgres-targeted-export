@@ -32,9 +32,9 @@ newtype ColName = ColName T.Text
 
 data FKey = FKey {
     parentTable :: TblName,
-    parentColumns :: [ColName],
+    parentColumns :: ColName,
     childTable :: TblName,
-    childColumns :: [ColName]
+    childColumns :: ColName
     } deriving (Show, Eq, Generic, FromJSON, ToJSON)
 
 data Table = Table {

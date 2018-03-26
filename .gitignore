@@ -26,11 +26,4 @@ tags
 hscope.out
 run/
 logs/
-*.sql
-.DS_Store
-*.aes
-codeship.env
-*/assets
-docsets/
-.vscode/
-.psc-ide-port
+export.yaml
